@@ -15,6 +15,10 @@ class MongoUtil {
         fun getClient(): MongoClient {
             return client
         }
+
+        fun saveClient(): MongoClient{
+            return client
+        }
     }
 
 }
