@@ -27,7 +27,7 @@ class Requests {
         fun index(routingContext: RoutingContext) {
             val resJson = JsonObject()
             resJson
-                .put("msg", "Welcome to the Kotlin version of the IVR REST API")
+                .put("msg", "Welcome to the Kotlin version of the REST API")
                 .put("ok", true)
 
             val response = routingContext.response()
